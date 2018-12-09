@@ -1,4 +1,4 @@
-# TMDb Movie Genres Classification
+# TMDb Movie Genres Multi-label Classification
 
 *Group member: Julia Tavares, Wei Wei, Xiao Han, Jialiang Shi, Xueyin Wang*  
 
