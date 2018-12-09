@@ -13,22 +13,22 @@
 	
 ## File Description  
 * Data Discover:  
-	- [TMDB.ipynb](https://github.com/juliafeec/tmdb/blob/master/data_dicover/TMDB.ipynb)  
-	- [TMDB Discover.ipynb](https://github.com/juliafeec/tmdb/blob/master/data_dicover/TMDB%20Discover.ipynb)  
-	- [TMDB Discover - Part 2 (Join Data).ipynb](https://github.com/juliafeec/tmdb/blob/master/data_dicover/TMDB%20Discover%20-%20Part%202%20(Join%20Data).ipynb)  
+	- [TMDB.ipynb](https://github.com/xhan0909/MSDS621_Machine_Learning_Final_Project/blob/master/data_dicover/TMDB.ipynb)  
+	- [TMDB Discover.ipynb](https://github.com/xhan0909/MSDS621_Machine_Learning_Final_Project/blob/master/data_dicover/TMDB%20Discover.ipynb)  
+	- [TMDB Discover - Part 2 (Join Data).ipynb](https://github.com/xhan0909/MSDS621_Machine_Learning_Final_Project/blob/master/data_dicover/TMDB%20Discover%20-%20Part%202%20(Join%20Data).ipynb)  
 * Feature preocessing:  
-	- [Download subtitles.ipynb](https://github.com/juliafeec/tmdb/blob/master/feature_preprocessing/Download%20subtitles.ipynb)
-	- [Process Subtitles.ipynb](https://github.com/juliafeec/tmdb/blob/master/feature_preprocessing/Process%20Subtitles.ipynb)
-	- [Doc2Vec.ipynb](https://github.com/juliafeec/tmdb/blob/master/feature_preprocessing/Doc2Vec.ipynb)  
-	- [tokenizer.ipynb](https://github.com/juliafeec/tmdb/blob/master/feature_preprocessing/tokenizer.ipynb)  
+	- [Download subtitles.ipynb](https://github.com/xhan0909/MSDS621_Machine_Learning_Final_Project/blob/master/feature_preprocessing/Download%20subtitles.ipynb)
+	- [Process Subtitles.ipynb](https://github.com/xhan0909/MSDS621_Machine_Learning_Final_Project/blob/master/feature_preprocessing/Process%20Subtitles.ipynb)
+	- [Doc2Vec.ipynb](https://github.com/xhan0909/MSDS621_Machine_Learning_Final_Project/blob/master/feature_preprocessing/Doc2Vec.ipynb)  
+	- [tokenizer.ipynb](https://github.com/xhan0909/MSDS621_Machine_Learning_Final_Project/blob/master/feature_preprocessing/tokenizer.ipynb)  
 * Complete Main Work:  
-	- [main_work_2tfidf.ipynb](https://github.com/juliafeec/tmdb/blob/master/main_work_2tfidf.ipynb) Converting both overview and subtitles with tfidf. 
-	- [main_work_tfidf+Doc2Vec.ipynb](https://github.com/juliafeec/tmdb/blob/master/main_work_tfidf%2BDoc2Vec.ipynb) Converting overview with tfidf and subtitles with doc2vec . 
+	- [main_work_2tfidf.ipynb](https://github.com/xhan0909/MSDS621_Machine_Learning_Final_Project/blob/master/main_work_2tfidf.ipynb) Converting both overview and subtitles with tfidf. 
+	- [main_work_tfidf+Doc2Vec.ipynb](https://github.com/xhan0909/MSDS621_Machine_Learning_Final_Project/blob/master/main_work_tfidf%2BDoc2Vec.ipynb) Converting overview with tfidf and subtitles with doc2vec . 
 * Presentation:   
-	- [prensentation_20181207.ipynb](https://github.com/juliafeec/tmdb/blob/master/presentation/prensentation_20181207.ipynb)  
-	- [images](https://github.com/juliafeec/tmdb/tree/master/images)  
-	- [WordCloud.ipynb](https://github.com/juliafeec/tmdb/blob/master/presentation/WordCloud.ipynb)  
-	- [treeViz.ipynb](https://github.com/juliafeec/tmdb/blob/master/presentation/treeViz.ipynb)
+	- [prensentation_20181207.ipynb](https://github.com/xhan0909/MSDS621_Machine_Learning_Final_Project/blob/master/presentation/prensentation_20181207.ipynb)  
+	- [images](https://github.com/xhan0909/MSDS621_Machine_Learning_Final_Project/tree/master/images)  
+	- [WordCloud.ipynb](https://github.com/xhan0909/MSDS621_Machine_Learning_Final_Project/blob/master/presentation/WordCloud.ipynb)  
+	- [treeViz.ipynb](https://github.com/xhan0909/MSDS621_Machine_Learning_Final_Project/blob/master/presentation/treeViz.ipynb)
 
 ## Goal
 We want to predict movie genres based on general movie information obtained from TMDb website.  
@@ -112,7 +112,7 @@ We choose precision, recall and hamming loss as our evaluation metrics.
 	Hamming loss refers to the fraction of the wrong labels to the total number of labels per prediction. So it is a good metric to evaluate model performance in multi-label classification problems.   
 	
 + **Accuracy**:   
-	Accuracy is not a good metric for multi-label classification problem, since the `accuracy_rate()` in `sklearn` will measure the subset accuracy in this case, and only an exact match will be counted as a 1.
-
-
+	Accuracy is not a good metric for multi-label classification problem, since the `accuracy_rate()` in `sklearn` will measure the subset accuracy in this case, and only an exact match will be counted as a 1.  
+  
+  
 *Note: If you cannot edit or execute some cells, please go to the nbextensions setting page and enable the "Freeze" extension to be able to unfreeze those cells.*
