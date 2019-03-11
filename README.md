@@ -2,6 +2,8 @@
 
 *Group member: Julia Tavares, Wei Wei, Xiao Han, Jialiang Shi, Xueyin Wang*  
 
+*This repository is the duplication of the original private repository (forked from [here](https://github.com/juliafeec/tmdb)).*
+
 ## Table of Contents
 * File Description  
 * Goal  
